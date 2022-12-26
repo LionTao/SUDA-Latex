@@ -55,7 +55,10 @@ The LaTeX template for thesis of suda]
 % 不需要设置CJKmainfont，ctex 宏包已经很好的处理了
 % 不仅设置了为黑体，斜体为楷体，还兼容了winfonts和adobefonts
 % 直接设置反而会在只有adobefonts的情况下报错
-\setCJKmainfont{SimSun}
+\setCJKmainfont{SimSun}[
+    Path=./fonts/,
+    Extension=.ttf,
+]
 
 % 斜楷体
 \setCJKfamilyfont{hwxingkai}{STXingkai}
@@ -63,7 +66,10 @@ The LaTeX template for thesis of suda]
  % windows 楷体
 %\setCJKfamilyfont{kai}{KaiTi_GB2312}
 % \setCJKfamilyfont{kai}{KaiTi}
-\setCJKfamilyfont{kai}{KaiTi}
+\setCJKfamilyfont{kai}{KaiTi}[%
+    Path=./fonts/,
+    Extension=.ttf,
+]
 
 \newcommand{\kai}{\CJKfamily{kai}}
 %windows 宋体
