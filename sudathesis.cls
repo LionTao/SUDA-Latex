@@ -595,7 +595,7 @@ The LaTeX template for thesis of suda]
 % 英文摘要
 \newenvironment{eabstract}{%
     \newpage
-    \chapter*{\zihao{-2}{TreeCRF-based High-Order Syntactic Parsing}\\
+    \chapter*{\zihao{-2}{\suda@thesistitleeng}\\
     \vspace{2ex}
     \centerline{\zihao{-3}{Abstract}}}
     \setlength{\parindent}{24bp}
