@@ -513,7 +513,7 @@ The LaTeX template for thesis of suda]
                 &\dlmu[9.2cm]{\zihao{4}\heiti{\suda@thesistitle}}\\ %[.4ex]%\hline
                 &\dlmu[9.2cm]{} \\
                 % english title 需要手动输入
-                &\dlmu[9.2cm]{\zihao{4}{TreeCRF-based High-Order Syntactic Parsing}} \\%[.4ex]
+                &\dlmu[9.2cm]{\zihao{4}{\suda@thesistitleeng}} \\%[.4ex]
                 &\dlmu[9.2cm]{} \\%[.4ex]
             \end{tabular}
             \vskip 20bp
